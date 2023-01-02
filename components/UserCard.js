@@ -10,7 +10,7 @@ function UserCard({name, userName, email, address, phone, company}) {
       <Text style={styles.text}>
         Address : {(address.street, address.suite, '\n', address.city)}
       </Text>
-      <Text style={styles.text}>Phone number : {phone}</Text>
+      <Text style={styles.text}>Phone Number : {phone}</Text>
       <Text style={styles.text}>Company : {company.name}</Text>
     </View>
   );

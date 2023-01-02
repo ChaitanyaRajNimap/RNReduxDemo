@@ -4,6 +4,7 @@ import store from './redux/store';
 import {View, Text, StyleSheet} from 'react-native';
 import DisplayUsers from './components/DisplayUsers';
 import HooksDisplayUsers from './components/HooksDisplayUsers';
+import AddUser from './components/AddUser';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <View style={styles.rootContainer}>
         <Text style={styles.heading}>React Native Redux Demo</Text>
         {/* <DisplayUsers /> */}
-        <HooksDisplayUsers />
+        {/* <HooksDisplayUsers /> */}
+        <AddUser />
       </View>
     </Provider>
   );
